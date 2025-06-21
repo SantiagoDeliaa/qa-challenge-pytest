@@ -19,6 +19,9 @@ Automatización de pruebas del recurso `/pet` de la API [Swagger Petstore](https
 
 ```
 qa-challenge-pytest/
+├──.github
+  ├──workflows
+    ├──newman-tests.yml
 ├── tests/
 │   ├── test_add_pet.py
 │   ├── test_delete_pet.py
@@ -88,16 +91,12 @@ Cada test es **autónomo**: crea, actualiza y elimina recursos dentro del mismo 
 
 ## CI/CD 
 
-Este repositorio está preparado para integrarse a pipelines CI/CD:
+### GitHub Actions (Validaciones Automatizadas)
 
-* Ejecutar `pytest` como parte de `GitHub Actions`
-* Publicar resultados con `Allure`
-* Validar regresiones o errores en el endpoint `/pet` de forma continua
-
-Se puede extender con:
-
-* Reportes HTML persistentes
-* Versionado de artefactos de prueba
+- Integre este flujo a `GitHub Actions` para `pytest`.
+- Cada vez que se realiza un `push` o `pull request`.
+- Publica resultados con `Allure`.
+- Valida regresiones o errores en el endpoint `/pet` de forma continua.
 
 ---
 
