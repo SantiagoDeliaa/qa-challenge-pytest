@@ -1,17 +1,6 @@
 # QA API Challenge - Pytest + Allure
 
-Automatización de pruebas del recurso `/pet` de la API [Swagger Petstore](https://petstore.swagger.io/), usando **Python**, **Pytest** y reportería **Allure**.
-
----
-
-## Objetivo
-
-* Validar mediante automation las operaciones CRUD del endpoint `/pet`:
-
-  * `POST`, `GET`, `PUT`, `DELETE`
-* Ejecutar con `pytest`
-* Generar reportería Allure
-* Dejar preparado para integración con CI/CD (GitHub Actions, etc.)
+Automatización de pruebas del recurso `/pet` de la API [Swagger Petstore](https://petstore.swagger.io/) usando **Python**, **Pytest** y reportes **Allure**.
 
 ---
 
