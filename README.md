@@ -1,4 +1,4 @@
-# QA API Challenge - Swagger Petstore (Pytest + Allure)
+# QA API Challenge - Pytest + Allure
 
 Automatización de pruebas del recurso `/pet` de la API [Swagger Petstore](https://petstore.swagger.io/), usando **Python**, **Pytest** y reportería **Allure**.
 
