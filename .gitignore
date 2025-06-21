@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Allure results
+allure-results/
+allure-report/
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# VSCode config
+.vscode/
+
+# Logs
+*.log
+
+# MacOS
+.DS_Store
