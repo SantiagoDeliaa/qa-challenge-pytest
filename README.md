@@ -4,28 +4,6 @@ Automatización de pruebas del recurso `/pet` de la API [Swagger Petstore](https
 
 ---
 
-## Estructura del repositorio
-
-```
-qa-challenge-pytest/
-├──.github
-  ├──workflows
-    ├──newman-tests.yml
-├── tests/
-│   ├── test_add_pet.py
-│   ├── test_delete_pet.py
-│   ├── test_find_by_status.py
-│   ├── test_get_pet_by_id.py
-│   └── test_update_pet.py
-├── conftest.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-└── allure-results/ (auto-generado desp de la ejecución)
-```
-
----
-
 ## Instalación y ejecución
 
 ### Prerequisitos
